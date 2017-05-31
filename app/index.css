@@ -1,0 +1,12 @@
+body {
+  background-image: url("/images/waves.jpeg");
+}
+
+
+#app {
+  color: blue;
+}
+
+#badge {
+  color: purple;
+}
