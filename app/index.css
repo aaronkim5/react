@@ -1,7 +1,15 @@
 body {
   background-image: url("/images/waves.jpeg");
+  font-family: -apple-system,BlinkMacSystemFont,SegoeUI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,HelveticaNeue,sans-serif;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
 
 #app {
   color: blue;
@@ -9,4 +17,20 @@ body {
 
 #badge {
   color: purple;
+}
+
+.container {
+  font-weight: bolder;
+  color: red;
+  margin: 0 auto;
+}
+
+.languages {
+  display: flex;
+}
+
+.languages li {
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
 }

@@ -9,7 +9,6 @@ ReactDOM.render(
   document.getElementById('app')
 );
 
-
 ReactDOM.render(
   <Badge
     name="Aaron"
