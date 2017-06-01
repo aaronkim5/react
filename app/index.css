@@ -19,6 +19,12 @@ li {
   color: purple;
 }
 
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .container {
   font-weight: bolder;
   color: red;
